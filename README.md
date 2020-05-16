@@ -7,7 +7,7 @@ This is a reverse string app made with Go
 
 ***Instructions:***
 1. git clone https://github.com/DevMoFu/Reverse-String-App-In-Go.git
-2. `go build SimpleTipCalcInGo.go`
+2. `go build ReverseStringApp.go`
 3. `ReverseStringApp -String "<String to reverse>"`
 
 ***Args***
