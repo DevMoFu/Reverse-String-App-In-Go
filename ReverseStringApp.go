@@ -33,5 +33,5 @@ func main() {
 	var reverseTextSlice = SplitChrs(*userSting)
 	var reverseText string = strings.Join(reverseTextSlice, "")
 
-	fmt.Printf("Reversed String: '%v' \n", reverseText)
+	fmt.Printf("\nReversed String: '%v' \n\n", reverseText)
 }
