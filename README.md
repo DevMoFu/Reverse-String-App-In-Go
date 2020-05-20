@@ -14,7 +14,7 @@ This is a reverse string app made with Go
 ```
 Usage of ./ReverseStringApp:
   -String string
-        String to mod (default "Defualt Value")
+        String to mod (default "Default Value")
 ```
 
 ***Sample Output***
