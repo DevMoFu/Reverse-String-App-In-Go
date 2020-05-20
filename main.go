@@ -7,8 +7,7 @@ import (
 	"strings"
 )
 
-// SplitChrs to split characters
-func SplitChrs(str string) []string {
+func splitChrs(str string) []string {
 	if len(str) == 0 || len(str) == 1 {
 		fmt.Println("String of 1 chr or nil provided\nEnter a valid string and try again")
 		os.Exit(1)
@@ -30,7 +29,7 @@ func main() {
 	userSting := flag.String("String", "Defualt Value", "String to mod")
 	flag.Parse()
 
-	var reverseTextSlice = SplitChrs(*userSting)
+	var reverseTextSlice = splitChrs(*userSting)
 	var reverseText string = strings.Join(reverseTextSlice, "")
 
 	fmt.Printf("\nReversed String: '%v' \n\n", reverseText)
